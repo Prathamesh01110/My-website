@@ -5,24 +5,24 @@ const exposureToTable = document.querySelector(".exposure");
 
 const research = [
   {
-    title: "Web Development:",
-    authors:
-      "• Proficient in the MERN (MongoDB, Express.js, React.js, Node.js) stack, with hands-on experience in building web applications.",
-    authors1:
-      "• Proficient in crafting responsive and user-friendly web interfaces using HTML5, CSS3, and Bootstrap.",
-    authors2:
-      "• Experience in implementing backend logic and harnessing the power of APIs to drive dynamic web applications.",
-    authors3:
-      "• Exploring deployment strategies.",
-    conferences:
-      "",
+    "title": "Web Development:",
+    "authors": 
+      "• Expertise in building scalable, high-performance web applications using Next.js.",
+    "authors1": 
+      "• Proficient in crafting responsive, user-focused interfaces with HTML5, CSS3, Bootstrap, and Tailwind CSS.",
+    "authors2": 
+      "• Skilled in MERN stack development, including REST APIs and Role-Based Access Control (RBAC).",
+    "authors3": 
+      "• Experienced in API integration, backend logic, and performance optimization for web applications.",
+    "conferences": "",
     researchYr:{link1: "https://img.icons8.com/fluency/48/html-5.png",
                 link2 :  "https://img.icons8.com/color/48/css3.png",
                 link3:"https://img.icons8.com/color/48/javascript--v1.png",
                 link4: "https://img.icons8.com/color/48/mongodb.png",     
                 link5: "https://img.icons8.com/office/40/express-js.png",
                 link6: "https://img.icons8.com/officel/40/react.png", 
-                link7: "https://img.icons8.com/fluency/48/node-js.png"
+                link7: "https://img.icons8.com/fluency/48/node-js.png",
+                link8: "https://img.icons8.com/fluency-systems-filled/50/nextjs.png"
   },
 
   citebox: "popup1",
@@ -70,17 +70,16 @@ const research = [
     absbox: "absPopup2",
   },
   {
-    title: "Artificial Intelligence and Machine Learning:",
-    authors:
-      "• I'm immersing myself in the foundational concepts and practical applications of this transformative field. With a solid understanding of AI and ML fundamentals.",
-    authors1:
-      "• I've taken the first steps by developing my first neuron, paving the way for deeper exploration into neural networks and advanced machine learning algorithms.",
-    authors2:
-      "• I'm continuously learning through online courses, tutorials, and personal projects to expand my knowledge and skills in AI and ML.",
-    authors3:
-      "",
-    conferences:
-      "",
+    "title": "Artificial Intelligence and Machine Learning:",
+    "authors": 
+      "• Solid understanding of AI and ML fundamentals with hands-on experience in practical applications.",
+    "authors1": 
+      "• Developed an AI agent and fine-tuned a BERT model for advanced NLP tasks.",
+    "authors2": 
+      "• Built a custom neural network for classification, showcasing expertise in deep learning.",
+    "authors3": 
+      "• Continuously learning through online courses, tutorials, and personal projects to enhance AI and ML skills.",
+    "conferences": "",  
     researchYr:{link1: "https://img.icons8.com/external-becris-flat-becris/64/external-deep-learning-artificial-intelligence-becris-flat-becris.png",
                 link2: "https://img.icons8.com/fluency/48/artificial-intelligence--v1.png",
                 link3: "https://img.icons8.com/3d-fluency/94/python.png",
@@ -90,7 +89,7 @@ const research = [
   },
 
   citebox: "popup3",
-    image: "assets/images/research-page/aimldev.png",
+    image: "assets/images/research-page/aiml.jpg",
     citation: {
       properlink: "https://github.com/pratahmesh/AIML_Dev",
       vancouver:
@@ -212,22 +211,7 @@ const fillData = () => {
             <div class="authors">${authors}<br><br>${authors1} <br><br> ${authors2} <br><br> ${authors3}</div>
             <div>${imgOutput}</div>
             <!--CITE BUTTON-->
-            <div class="d-flex" style="margin-right:5%;">
-              <button class="button button-accent button-small text-right button-abstract" type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                ABSTRACT
-              </button>
-              <button class="button button-accent button-small text-right button-abstract" type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                LINK
-              </button>
-            </div>
-            <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-              <div class="card-body">${abstract}</div>
-            </div>
-            <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-              <div class="card-body">
-                <a href="${citation.properlink}">${citation.vancouver}</a>
-              </div>
-            </div>
+            
           </td>
         </tr>`;
     }
@@ -272,25 +256,10 @@ const fillExposureToData = () => {
               </span>
             </div>
             <a href="#0" class="paperTitle" style="font-size:28px">${title}</a> 
-            <div class="authors">${authors}<br><br>${authors1} <br><br> ${authors2} <br><br> ${authors3}</div>
+            <div class="authors">${authors}<br>${authors1} <br><${authors2} <br> ${authors3}</div>
             <div>${imgOutput}</div>
             <!--CITE BUTTON-->
-            <div class="d-flex" style="margin-right:5%;">
-              <button class="button button-accent button-small text-right button-abstract" type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                ABSTRACT
-              </button>
-              <button class="button button-accent button-small text-right button-abstract" type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                LINK
-              </button>
-            </div>
-            <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-              <div class="card-body">${abstract}</div>
-            </div>
-            <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-              <div class="card-body">
-                <a href="${citation.properlink}">${citation.vancouver}</a>
-              </div>
-            </div>
+            
           </td>
         </tr>`;
     }
