@@ -409,7 +409,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
     margin-bottom: 0px;
     font-size: 3rem;
   }
@@ -421,7 +421,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
     font-size: 3rem;
   }
 }
@@ -432,7 +432,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -444,7 +444,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -456,7 +456,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -468,7 +468,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     font-size: 2rem;
   }
 }
@@ -478,7 +478,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -490,7 +490,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     margin-bottom: 0px;
     font-size: 2rem;
   }
@@ -507,7 +507,7 @@ ul {
     margin-right: 20px;
   }
   .card .title-div {
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
     font-size: 2rem;
   }
 }
@@ -855,4 +855,11 @@ SVG ANIMATIONS PROJECT PAGE
   animation-iteration-count: infinite;
   animation-duration: 3.3s;
   transform-origin: 785.132px 295.833px;
+}
+
+.description {
+  font-size: 16px;
+  color: #ffffff ;  /* Ensures the text color is white */
+  margin: 0%;
+
 }
