@@ -50,11 +50,9 @@ const research = [
       "",
     conferences:
       "",
-    researchYr:{link1: "https://img.icons8.com/color/48/android-os.png",
-                link2 :  "https://img.icons8.com/color/48/mac-os--v1.png",
-                link3 :  "https://img.icons8.com/officel/40/react.png",
-                link4:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-flutter-is-an-open-source-mobile-application-development-framework-created-by-google-logo-color-tal-revivo.png",
-                link5: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-firebase-a-googles-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-logo-shadow-tal-revivo.png",
+    researchYr:{link1 :  "https://img.icons8.com/officel/40/react.png",
+                link2:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-flutter-is-an-open-source-mobile-application-development-framework-created-by-google-logo-color-tal-revivo.png",
+                link3: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-firebase-a-googles-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-logo-shadow-tal-revivo.png",
               },
 
   citebox: "popup2",
@@ -80,8 +78,8 @@ const research = [
     "authors3": 
       "• Continuously learning through online courses, tutorials, and personal projects to enhance AI and ML skills.",
     "conferences": "",  
-    researchYr:{link1: "https://img.icons8.com/external-becris-flat-becris/64/external-deep-learning-artificial-intelligence-becris-flat-becris.png",
-                link2: "https://img.icons8.com/fluency/48/artificial-intelligence--v1.png",
+    researchYr:{link1: "https://docs.langflow.org/img/langflow-icon-black-transparent.svg",
+                link2: "https://media.licdn.com/dms/image/v2/D560BAQEOc-Rr7UaiOA/company-logo_200_200/company-logo_200_200/0/1726862282281/datastax_logo?e=2147483647&v=beta&t=yzjN1NZSpWbgVDT4nqsFSdDRF3IxkdQcNYM8DUgjl-Q",
                 link3: "https://img.icons8.com/3d-fluency/94/python.png",
                 link4: "https://img.icons8.com/fluency/48/pytorch.png",     
                 link5: "https://img.icons8.com/color/48/numpy.png",

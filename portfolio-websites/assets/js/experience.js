@@ -7,7 +7,7 @@ const exp = [
   {
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/ef.png",
-    place: "Elite Forms",
+    place: "Elite Forums",
     time: "(Apr - Jun, 2024)",
     
 
